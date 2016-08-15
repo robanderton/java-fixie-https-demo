@@ -1,0 +1,27 @@
+{
+  "name": "Java Fixie HTTPS Demo",
+  "description": "This app demonstrates how to use Fixie to proxy HTTPS requests from Java.",
+  "image": "heroku/java",
+  "keywords": [
+    "fixie",
+    "https",
+    "java",
+    "proxy"
+  ],
+  "website": "https://github.com/robanderton/java-fixie-https-demo",
+  "repository": "https://github.com/robanderton/java-fixie-https-demo",
+  "success_url": "/",
+  "addons": ["fixie"],
+  "env": {
+    "JAVA_OPTS": {
+      "description": "Java runtime options",
+      "value": "-Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.showdatetime=true -Dorg.apache.commons.logging.simplelog.log.org.apache.http=DEBUG -Dorg.apache.commons.logging.simplelog.log.org.apache.http.wire=ERROR"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Free"
+    }
+  }
+}
