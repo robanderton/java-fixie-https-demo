@@ -44,6 +44,8 @@ ProxyAuthenticationStrategy - Caching 'basic' auth scheme for http://velodrome.u
 MainClientExec - Tunnel to target created.
 ```
 
+**Note:** the code demonstrated in this app will also work for HTTP requests.
+
 ### Dependencies
 
 This demo has been built using version 4.5.2 of the Apache HTTP Client. If you are attempting to use a newer version and receiving errors, please [create an issue](https://github.com/robanderton/java-fixie-https-demo/issues/new).
