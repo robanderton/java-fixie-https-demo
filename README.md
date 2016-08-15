@@ -63,10 +63,13 @@ $ heroku local:start
 
 The app should now be running on [localhost:5000](http://localhost:5000/).
 
+**Note:** you will need to configure a `.env` file containing a `FIXIE_URL` value in order to run locally. See the Fixie [Local Setup](https://devcenter.heroku.com/articles/fixie#local-setup) documentation for more information.
+
 ## Deploying to Heroku
 
 ```sh
 $ heroku create
+$ heroku addons:create fixie:tricycle
 $ git push heroku master
 $ heroku open
 ```
