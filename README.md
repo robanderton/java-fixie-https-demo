@@ -46,6 +46,8 @@ MainClientExec - Tunnel to target created.
 
 **Note:** the code demonstrated in this app will also work for HTTP requests.
 
+The code itself lives in the `showHttps` function in `src/main/java/Main.java` and it shows how to authenticate to the proxy and send a HTTPS request to `https://httpbin.org/ip`. When you run the run the demo app and click the link, you should see one of your Fixie IP addresses reported back.
+
 ### Dependencies
 
 This demo has been built using version 4.5.2 of the Apache HTTP Client. If you are attempting to use a newer version and receiving errors, please [create an issue](https://github.com/robanderton/java-fixie-https-demo/issues/new).
