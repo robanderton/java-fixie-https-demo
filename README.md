@@ -82,6 +82,6 @@ $ heroku open
 
 Thanks to Sarb Billing for providing the fully working example that is the basis for this demo app.
 
-Thanks also to [Joel Kutner](https://github.com/jkutner) for the [proxy-examples](https://github.com/kissaten/proxy-examples) app that I hacked around with when trying to get HTTPS to work.
+Thanks also to [Joe Kutner](https://github.com/jkutner) for the [proxy-examples](https://github.com/kissaten/proxy-examples) app that I hacked around with when trying to get HTTPS to work.
 
 And finally, the contributors to [this Stack Overflow](http://stackoverflow.com/questions/13288038/httpclient-4-2-2-and-proxy-with-username-password) discussion that helped immensely.
